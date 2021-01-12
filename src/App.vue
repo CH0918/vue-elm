@@ -1,16 +1,24 @@
 <template>
-  <HelloWorld msg="Welcome to Your Vue.js App" />
+  <!-- <Home /> -->
+  <router-view></router-view>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue';
+// import Home from './pages/home/home';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
-  }
+    // Home,
+  },
+  created() {},
+  mounted() {},
 };
 </script>
 
-<style></style>
+<style>
+* {
+  margin: 0;
+  padding: 0;
+}
+</style>

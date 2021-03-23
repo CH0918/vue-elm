@@ -16,9 +16,6 @@ export default {
 };
 </script>
 
-<style>
-* {
-  margin: 0;
-  padding: 0;
-}
+<style lang="scss">
+@import './assets/styles/reset.scss';
 </style>

@@ -6,11 +6,12 @@
     "serve": "vue-cli-service serve",
     "dev": "npm run serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "devbuild": "vue-cli-service build --mode development"
   },
   "dependencies": {
     "@babel/polyfill": "^7.12.1",
     "core-js": "^3.6.5",
+    "sass-resources-loader": "^2.1.1",
     "vue": "^3.0.0",
     "vue-router": "^4.0.0-0",
     "vuex": "^4.0.0-0"
@@ -26,7 +27,9 @@
     "babel-eslint": "^10.1.0",
     "eslint": "^6.7.2",
     "eslint-plugin-vue": "^7.0.0-0",
-    "postcss-pxtorem": "^5.1.1"
+    "node-sass": "^5.0.0",
+    "postcss-pxtorem": "^5.1.1",
+    "sass-loader": "^10.1.1"
   },
   "eslintConfig": {
     "root": true,
